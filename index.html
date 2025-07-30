@@ -1,45 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Alumni Testimonials</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <header>
-    <h1>Our Proud Alumni</h1>
-    <p>Inspiring words from our alumni community</p>
-  </header>
-
-  <section class="testimonial-container">
-    <!-- Alumni Testimonial Card 1 -->
-    <div class="testimonial-card">
-      <img src="pimg.jpg" alt="Alumni Photo">
-      <h3>Dr. Priya Sharma</h3>
-      <p class="alumni-info">B.Sc. Computer Science - 2015</p>
-      <p class="alumni-position">Senior Software Engineer at Infosys</p>
-      <blockquote>
-        "My time at XYZ College shaped my career. The faculty and learning environment prepared me for global challenges."
-      </blockquote>
+  <div class="carousel-container">
+    <h2>Alumni Testimonials</h2>
+    <div class="carousel" id="testimonialCarousel">
+      <div class="slide active">
+        <img src="images/alumni1.jpg" alt="Alumni 1" />
+        <p>"My time here helped me grow professionally and personally!"</p>
+        <h4>- Krish, Software Engineer</h4>
+      </div>
+      <div class="slide">
+        <img src="images/alumni2.jpg" alt="Alumni 2" />
+        <p>"The faculty and learning environment were amazing!"</p>
+        <h4>- Sneha, Data Analyst</h4>
+      </div>
+      <div class="slide">
+        <img src="images/alumni3.jpg" alt="Alumni 3" />
+        <p>"This place gave me unforgettable experiences and friendships."</p>
+        <h4>- Arjun, Product Designer</h4>
+      </div>
     </div>
-
-    <!-- Alumni Testimonial Card 2 -->
-    <div class="testimonial-card">
-      <img src="rimg.jpg" alt="Alumni Photo">
-      <h3>Ravi Kumar</h3>
-      <p class="alumni-info">BBA - 2018</p>
-      <p class="alumni-position">Entrepreneur, RK Enterprises</p>
-      <blockquote>
-        "The mentorship and exposure I received here helped me build my dream startup. Grateful to be an alum!"
-      </blockquote>
-    </div>
-
-    <!-- Add more testimonials below as needed -->
-  </section>
-
-  <footer>
-    <p>© 2025 Alphafly Computer Education Alumni Network</p>
-  </footer>
+    <button id="prevBtn">&#10094;</button>
+    <button id="nextBtn">&#10095;</button>
+  </div>
+  <script src="script.js"></script>
 </body>
 </html>
