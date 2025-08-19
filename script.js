@@ -5,7 +5,7 @@ const students =[
     "address": "1st cross street, Jeyam Nagar, Theni-625531",
     "blood_group": "A1+",
     "phone": "9865395532",
-    "image": url('pimg.jpg'),
+    "image": url("pimg.jpg"),
     "department": "PYTHON"
   },
   {
