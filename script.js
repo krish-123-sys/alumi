@@ -769,7 +769,7 @@ students.forEach((student, index) => {
   if (index === 0) slide.classList.add("active"); // first one active
 
   slide.innerHTML = `
-    <center><table class="alumni-card" width="50%" height="50%">
+    <center><table class="alumni-card" width="100%" height="100%">
     <tr><td><img src="${student.image}" alt="${student.name}" width="70" height="70"/></td></tr>
     <tr><td><h3>${student.name}</h3></td></tr>
 <tr><td><p class="alumni-blood">Date of Birth: ${student.dob}</p></td></tr>
